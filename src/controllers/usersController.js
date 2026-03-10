@@ -19,6 +19,7 @@ async function createUser(req, res, next) {
         id: user._id.toString(),
         name: user.name,
         number: user.number,
+        text: user.text,
         createdAt: user.createdAt,
         updatedAt: user.updatedAt,
       },
